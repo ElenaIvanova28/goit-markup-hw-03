@@ -239,9 +239,7 @@ color: var(--accent-color) ;
 }
 .set-info {
   display: flex;
-  width: 1200px;
-  margin: 0 15px;
-}
+  }
 
 .set-info .list + .list {
   margin-left: 30px;
@@ -346,6 +344,7 @@ color: var(--accent-color) ;
 
 .card {
   border-radius: 5px;
+  
 }
 .team-list > .item {
   flex-basis: calc(100% / 4 - 30px);
@@ -356,7 +355,7 @@ color: var(--accent-color) ;
 
 .card-content {
   padding: 30px 59px 30px 60px;
-  background-color: var(--white);
+  background-color: var(--white-text-color);
 }
 
 .position {
@@ -369,6 +368,8 @@ color: var(--accent-color) ;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    align-content: center;
+    text-align: center;
     color: var(--primery-text-color);
     
   }
@@ -379,6 +380,7 @@ color: var(--accent-color) ;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(--title-text-color);
     }
 
@@ -398,6 +400,7 @@ color: var(--accent-color) ;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
     color: var(--white-text-color);
   }
   
@@ -405,23 +408,31 @@ color: var(--accent-color) ;
   .address:focus {
     color: var(--accent-color);
   }
-  
+  .mail-list {
+    margin-bottom: 9px;
+
+  }
   .contact-links-footer .contact-title {
+    
     color: var(--white-light-text-color);
   }
-  
+  .contact-title {
+    margin-bottom: 9px;
+}
   .contact-links {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+   
   }
   
   .contact-links-footer .contact-title:hover,
   .contact-links-footer .contact-title:focus {
     color: var(--accent-color);
   }
+  
   
   .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -451,6 +462,7 @@ color: var(--accent-color) ;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    list-style: none;
   }
   
   .filters-title {
@@ -562,6 +574,7 @@ color: var(--accent-color) ;
   
   .contact-links-footer {
     display: block;
+    list-style: none;
   }
   .contact-links-footer {
     font-style: normal;
